@@ -260,26 +260,34 @@ h2 {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
-.mark span {
-  display: inline-block;
-  background-color: #4d5ae5;
+.icon-ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.ion-list {
   width: 40px;
   height: 40px;
   flex-shrink: 0;
+}
+
+.icon-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
   border-radius: 50%;
-  border: 1px solid;
-  margin-top: 8px;
-  margin-right: 24px;
-}
-
-.container-icon {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.icon-team {
-  justify-content: center;
-  gap: 24px;
-  margin: auto;
+.icon-link:focus {
+  background-color: #404bbf;
+}
+
+.icon-link:hover {
+  background-color: #404bbf;
 }
 
 .team-list {
