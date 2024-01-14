@@ -198,7 +198,8 @@ h2 {
   background-size: cover;
   padding-top: 188px;
   padding-bottom: 188px;
-  max-width: 100%;
+  max-width: 1440px;
+  margin: 0;
 }
 
 .section-gadget {
@@ -437,14 +438,14 @@ a {
   max-width: 264px;
   text-align: left;
 }
-
-.container-footer {
+.container-footer-first {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
   align-items: baseline;
 }
-.container-footer-first {
+.container-footer {
+}
+.container-footer-div {
+  margin-right: 120px;
 }
 .footer-ul {
   display: flex;
