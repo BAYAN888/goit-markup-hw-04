@@ -272,6 +272,16 @@ h2 {
   margin-right: 24px;
 }
 
+.container-icon {
+  display: flex;
+}
+
+.icon-team {
+  justify-content: center;
+  gap: 24px;
+  margin: auto;
+}
+
 .team-list {
   display: flex;
   gap: 24px;
