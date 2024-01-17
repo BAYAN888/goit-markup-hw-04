@@ -217,11 +217,7 @@ h2 {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.li-gadget:hover .container-portfolio-img {
-  transform: translateY(0%);
-}
-
-.container-portfolio-text {
+.li-gadget:hover .container-portfolio-text {
   transform: translateY(0%);
 }
 
@@ -242,6 +238,7 @@ h2 {
 
 .container-img-cover {
   position: relative;
+  overflow: hidden;
 }
 .container-portfolio-img {
   position: relative;
